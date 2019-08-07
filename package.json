@@ -1,0 +1,25 @@
+{
+  "name": "winston-transport-mattermost",
+  "version": "1.0.1",
+  "description": "A Winston 3+ transport for Mattermost",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmoqa/winston-transport-mattermost.git"
+  },
+  "keywords": [
+    "winston",
+    "mattermost",
+    "transport"
+  ],
+  "author": "Guillermo Quinteros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmoqa/winston-transport-mattermost/issues"
+  },
+  "homepage": "https://github.com/gmoqa/winston-transport-mattermost#readme",
+  "dependencies": {
+    "winston": "^3.2.1",
+    "winston-transport": "^4.3.0"
+  }
+}
