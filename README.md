@@ -17,14 +17,18 @@ const MattermostTransport = require('winston-transport-mattermost')
 const logger = winston.createLogger({
   transports: [
     new MattermostTransport({
+      level: 'error',
       webhook_url: 'https://your.mattermost.com/hooks/334ktjodu7gq5yq7afj3w',
       username: 'logger name',
-      icon_url: 'https://www.mattermost.org/wp-content/uploads/2016/04/icon.png',
-      level: 'error'
+      icon_url: 'https://example.com/icon.png'
     })
   ]
 });
 ```
+## Config
+* __webhook_url:__ (Required) Mattermost Incoming Webhook URL.
+* __username:__ (Default **Winston**) Who sends the message.
+* __icon_url:__ (Default **Adorable avatars**) Public image URL for user avatar.
 
 ## Motivation
 The other mattermost transport packages have too many dependencies and are not compatible with version @3.x.
