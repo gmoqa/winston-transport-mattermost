@@ -27,10 +27,15 @@ const logger = winston.createLogger({
   ]
 });
 ```
+
 ## Config
 * __webhook_url:__ (Required) Mattermost Incoming Webhook URL.
 * __username:__ (Default **Winston**) Who sends the message.
 * __icon_url:__ (Default **Adorable avatars**) Public image URL for user avatar.
+
+## Screenshots
+
+<img src="https://user-images.githubusercontent.com/1767051/62671566-6216af00-b965-11e9-8a71-d8b7144740f1.png" width="400">
 
 ## Motivation
 The other mattermost transport packages have too many dependencies and are not compatible with version @3.x.
