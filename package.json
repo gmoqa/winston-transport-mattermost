@@ -1,6 +1,6 @@
 {
   "name": "winston-transport-mattermost",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Winston 3+ transport for Mattermost",
   "main": "lib/index.js",
   "repository": {
