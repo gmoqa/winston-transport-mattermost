@@ -2,6 +2,8 @@
 
 > A Winston @3.x transport for [Mattermost](https://mattermost.com/).
 
+[![NPM](https://nodei.co/npm/winston-transport-mattermost.png)](https://nodei.co/npm/winston-transport-mattermost/)
+
 ## Install
 
 ```bash
