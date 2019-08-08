@@ -1,6 +1,6 @@
 # winston-transport-mattermost
 
-> A Winston transport for [Mattermost](https://mattermost.com/).
+> A Winston @3.x transport for [Mattermost](https://mattermost.com/).
 
 ## Install
 
@@ -25,6 +25,9 @@ const logger = winston.createLogger({
   ]
 });
 ```
+
+## Motivation
+The other mattermost transport packages have too many dependencies and are not compatible with version @3.x.
 
 ## License
 [MIT](./LICENSE).
