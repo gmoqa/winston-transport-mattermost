@@ -38,7 +38,7 @@ const logger = winston.createLogger({
 <img src="https://user-images.githubusercontent.com/1767051/62671566-6216af00-b965-11e9-8a71-d8b7144740f1.png" width="400">
 
 ## Motivation
-The other mattermost transport packages have too many dependencies and are not compatible with version @3.x.
+The other mattermost transport packages have too many dependencies and are not compatible with Winston @3.X, and don't allow to customize the name or avatar of the message.
 
 ## License
-[MIT](./LICENSE).
+[MIT](./LICENSE)
