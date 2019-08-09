@@ -25,7 +25,10 @@ const logger = winston.createLogger({
       icon_url: 'https://example.com/icon.png'
     })
   ]
-});
+})
+
+logger.error('Something happened!')
+
 ```
 
 ## Config
